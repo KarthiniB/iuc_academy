@@ -21,6 +21,55 @@ code {
   padding-top: 20px;
   top: 0;
 }
+.nav-list{
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+.nav-item{
+  position: relative;
+}
+.nav-link{
+  font-weight: 500;
+  color: rgb(254,254,254);
+  cursor: pointer;
+}
+.mega-menu{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  gap: 24px;
+  background-color: #fff;
+  padding: 16px 24px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+.mega-section{
+  min-width: 100px;
+}
+.section-heading{
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #444;
+}
+.section-links{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.dropdown-item{
+  padding: 6px 0;
+  cursor: pointer;
+  color: #666;
+}
+.dropdown-item:hover{
+  color: #007bff;
+}
 .footer{
   width: 100%;
 }
