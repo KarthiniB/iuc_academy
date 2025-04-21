@@ -157,7 +157,7 @@ const NavBar = () => {
                                 <span className="nav-link">
                                     {menu.name}
                                 </span>
-                                {hovered === index && menu.subHeading.length > 0 &&(
+                                {hovered === index && menu.items.length > 0 &&(
                                     <div className="mega-menu">
                                         {menu.subHeading.map((subhead, sindex)=>(
                                             <div key={sindex} className="mega-section">

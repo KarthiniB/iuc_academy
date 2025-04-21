@@ -4,13 +4,15 @@ import Header from './components/Header';
 import NavBar from './components/NavBar';
 import HeroSection from './components/HeroSection';
 import Footer from './components/Footer';
+import ImageCarousel from './components/ImageCarousel';
 
 function App() {
   return (
     <div className="App">
         <Header />
         <NavBar />
-        <HeroSection />
+        <ImageCarousel />
+        {/* <HeroSection /> */}
         <Footer />
     </div>
   );
