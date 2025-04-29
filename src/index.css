@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   padding: 0;
@@ -81,22 +85,22 @@ code {
   padding-top: 20px;
   top: 0;
 }
-.nav-list{
+.nav-list {
   display: flex;
   list-style: none;
   gap: 32px;
   margin: 0;
   padding: 0;
 }
-.nav-item{
+.nav-item {
   position: relative;
 }
-.nav-link{
+.nav-link {
   font-weight: 500;
   color: rgb(254,254,254);
   cursor: pointer;
 }
-.mega-menu{
+.mega-menu {
   position: absolute;
   top: 100%;
   left: 0;
@@ -109,31 +113,80 @@ code {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
-.mega-section{
+.mega-section {
   min-width: 100px;
 }
-.section-heading{
+.section-heading {
   font-weight: bold;
   margin-bottom: 8px;
   color: #444;
 }
-.section-links{
+.section-links {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.dropdown-item{
+.dropdown-item {
   padding: 6px 0;
   cursor: pointer;
   color: #666;
 }
-.dropdown-item:hover{
+.dropdown-item:hover {
   color: #007bff;
 }
-.footer{
+.hero-section {
   width: 100%;
 }
-
-.hero-section{
+.carousel-container {
+  width: 100%;
+  height: 232px;
+}
+.side-tab {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transform: translateY(-50%);
+  border-radius: 5px 0 0 5px;
+  z-index: 1000;
+}
+.side-form {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100%;
+  background-color: white;
+  box-shadow: 1px rgba(105, 99, 99, 0.3);
+  transition: right 0.3s ease-in-out;
+  z-index: 999;
+  padding: 20px;
+}
+.side-form open {
+  right: 0;
+}
+.side-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.side-form input,
+.side-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.side-form button {
+  background-color: #20B2AA;
+  color: #FFFFFF;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.footer{
   width: 100%;
 }

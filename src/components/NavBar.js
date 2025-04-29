@@ -6,7 +6,7 @@ const NavBar = () => {
         {name:"Home",
             items:[]
         },
-        {name:"About",
+        {name:"About +",
             items:[
                 {
                     heading:"About IUC",
@@ -14,7 +14,7 @@ const NavBar = () => {
                 }
             ]
         },
-        { name: "Training Courses", 
+        { name: "Training Courses +", 
             items: [
                 {
                     heading:"Full Stack Training",
@@ -49,7 +49,7 @@ const NavBar = () => {
                     subHeading:["C C++ Training", "UNIX SHELL Scripting Training", "PERL Training", "SEO Training"]
                 }
             ]},
-        { name: "Online Courses", 
+        { name: "Online Courses +", 
             items:[
                 {
                     heading:"Java Training",
@@ -81,7 +81,7 @@ const NavBar = () => {
                 }
             ]},
             {
-                name:"Service",
+                name:"Service +",
                 items:[
                 {
                     heading:"Web Development",
@@ -129,7 +129,7 @@ const NavBar = () => {
                 items:[]
             },
             {
-                name:"Careers",
+                name:"Careers +",
                 items:[
                     {
                         heading:"Job",

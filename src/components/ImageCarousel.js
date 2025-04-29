@@ -7,13 +7,13 @@ const ImageCarousel = () => {
     <div className="carousel-container">
         <Carousel autoPlay infiniteLoop showThumbs={false}>
             <div>
-                <img src="slide1.jpg" alt="slide1"/>
+                <img src="slide_1.jpg" alt="slide1"/>
             </div>
             <div>
-                <img src="slide2.jpg" alt="slide2"/>
+                <img src="slide_2.jpg" alt="slide2"/>
             </div>
             <div>
-                <img src="slide3.jpg" alt="slide3"/>
+                <img src="slide_3.jpg" alt="slide3"/>
             </div>
         </Carousel>
     </div>
